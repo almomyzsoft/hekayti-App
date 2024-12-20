@@ -14,6 +14,8 @@ import 'dataProviders/network/Network_info.dart';
 import 'features/Introdection/presintation/page/SplashScreen.dart';
 import 'injection_container.dart';
 
+
+
 DataBaseHelper db = new DataBaseHelper();
 NetworkInfo networkInfo = NetworkInfoImpl(sl());
 String path = '';
